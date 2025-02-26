@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Hongxuan An"
+  favicon: /assets/favicon-32x32.png
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: resume.qmd
+        text: Resume
+      - href: projects/index.qmd
+        text: Projects
+    tools:
+      - icon: github
+      - herf: https://github.com/ahongxuan
+  
+  page-footer: 
+    background: light
+    left: Copyright 2025, Hongxuan An
+    right: with {{< fa heart title="a heart" >}}
+
+format:
+  html:
+    theme: 
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    markdown:
+      extensions: [shortcodes]
+

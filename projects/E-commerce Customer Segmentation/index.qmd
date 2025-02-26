@@ -2,7 +2,7 @@
 title: "E-commerce Customer Segmentation"
 description: "Post description for first post"
 author: "Hongxuan An"
-date: "4/22/2024"
+# date: "4/22/2024"
 image: "olist_dataset_schema.png"
 categories:
   - Science

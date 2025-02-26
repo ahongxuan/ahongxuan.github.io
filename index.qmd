@@ -1,5 +1,10 @@
 ---
 title: "Hongxuan An"
+format: html
+include-in-header:
+    - text: |
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=AoA1ui_Loppsv4pbS9fAnTluMfExpf1xBQH3LccezVU&cl=ffffff&w=a"></script>
+
 # subtitle:
 image: assets/prof_pic.jpg
 

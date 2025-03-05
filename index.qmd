@@ -26,10 +26,12 @@ about:
 comments: false
 ---
 
-## 📌 About Me 
+## Bio
 Hi, welcome to my Website! I’m a second year Masters of Applied Statistics student at the [University of Michigan - Ann Arbor](https://umich.edu/). I completed my undergraduate studies at [Virginia Tech](https://www.vt.edu/), where I double-majored in Mathematics and Computer Modeling & Data Analysis, along with minors in Statistics and Computer Science. I have a strong background in data science, machine learning, and statistical analytics, with hands-on experience in big data technologies, predictive modeling, and data engineering.
 
 I’m passionate about leveraging data to drive business decisions, improve operational efficiency, and solve real-world problems. I am currently looking for opportunities in data science, machine learning, and analytics where I can apply my skills and continue growing in a dynamic, data-driven environment.
+
+
 
 
 <!-- ClustrMaps Embed -->

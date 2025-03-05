@@ -6,8 +6,9 @@ css: styles.css
 # Contact Information
 
 - **Name:** Hongxuan An
-- **Email:** aanaa at umich dot edu
-- **Phone:** 540-998-0396
+- **Email:** aanaa at umich.edu
+- **Phone:** 540-nine nine eight-0396
+- **Address:** Ann Arbor, MI, 48105
 
 ------
 
@@ -15,30 +16,75 @@ css: styles.css
 
 # Experience
 
-### Data Science Intern, 
-**** | *May 2024 – July 2024*
+### Data Science Intern | Penske Truck Leasing Co.
+
+**Reading, PA** | *May 2024 – July 2024*
+
+- Participated in designed and deploying the key components of customer analytics platform supported with big data (1MM+ transaction records) in SAS and Python by combing RFM analysis with K-mean clustering and ML-based churn prediction to fulfill business requirements of model centralization and improve accuracy of personalized marketing strategies (20% higher retention rate).
+- Validated platform enhancements and data ingestions weekly, collaborating with senior analysts to compile performance reports.
+- Teamed with senior scientists to automate a data monitoring process in Python for Penske data warehouse and develop a web-based visualization tool for business teams to identify and override/correct +15 types of data anomalies including inconsistent data types, outliers, improper data proxy usage, and feeding issues of upstream data sources.
+- Provided strategic deliveries and remediation plans for self-identified data issues or ad hoc business requirements.
+- Maintained the memory allocation for all Spark jobs and coordinated across end users for production releases; monitored the cluster/queue usage and run log of daily batches.
+
+### E-commerce Customer Segementation
+-  Conducted data preprocessing and feature engineering on 400K+ e-commerce transactions data to analyze customer purchase behaviors.
+-  Extracted product categories from text descriptions using Python NLTK and clustered products into 5 distinct groups, leveraging WordCloud visualization for category identification.
+-  Led customer segmentation analysis using PCA and K-means clustering based on their product preference and purchasing power features, and labeled customers into 11 segments based on morphology plots.
+-  Developed a multi-classification model using XGBoost that can predict customer segments from their current purchase behaviors, addressed class imbalance using SMOTE, achieving accuracy over 85%.
+-  Enabled targeted marketing and personalized engagement strategies by identifying customer segments and predicting future purchase patterns, enhancing customer experience and increasing sales potential.
+-  
+<!-- ### Customer Churn Classification
+- 1
+- 2
+- 3 -->
+
+### Research Assistant | Virginia Tech
+**Blacksburg, VA** | *June 2022 - May 2023*
+
+- Collaborated with an interdisciplinary research team from the Statistics Dept. and School of Plant and Environmental Sciences to develop AI-driven monitoring techniques for detecting subtle plant phenotype changes under stress conditions.
+- Implemented advanced data wrangling techniques in R (e.g., dplyr, ggplot2) to clean, process, and visualize plant health data across 100+ Excel datasets, ensuring accurate representation of monitoring proxies.
+- Developed and trained standalone ARIMA models for individual plants in treatment and control groups, applying F-tests on model parameters to identify statistically significant movement discrepancies. Results contributed to understanding plant stress responses.
+- Implemented and evaluated anomaly detection algorithms (moving average, Z-score, classification models) on multivariate time series data from six plant batches, improving detection of stimulus-driven movements and refining plant stress monitoring techniques.
 
 
-### Research Assistant, Virginia Tech
-**Blacksburg, VA** | **
+### Teaching Assistant | Virginia Tech
+**Blacksburg, VA** | *Jan 2023 - May 2023*
 
-
+- Led weekly discussion sessions and recitations, guiding students through ordinary differential equations, stochastic modeling, and numerical methods, while developing supplementary materials, including practice problems and coding exercises in Python, to reinforce key concepts.
+- Graded assignments and exams, providing detailed feedback to enhance students’ understanding of numerical linear algebra, eigenvalue problems, and parameter estimation, while holding regular office hours to offer one-on-one support.
+  
 ------
 
 # Education
 
-### University of Michigan - Ann Arbor	     |     Ann Arbor, MI
-MS, Applied Statistics	        08/2023 - 05/2025 (expected)
 
-### Virginia Polytechnic Institute and State University (Virginia Tech)	   |       Blacksburg, VA
-Double Major: BS Mathematics / BS Computer Modeling Data Analysis	08/2019 - 05/2023
-Double Minor: BS Statistics / BE Computer Science 	11/2021 - 05/2023
+
+### University of Michigan - Ann Arbor | Ann Arbor, MI
+MS, Applied Statistics *08/2023 - 05/2025 (expected)*  
+
+### Virginia Tech | Blacksburg, VA
+Double Major: BS Mathematics / BS Computer Modeling Data Analysis	*08/2019 - 05/2023*
+Double Minor: BS Statistics / BE Computer Science 	*11/2021 - 05/2023*
+
+##### Honor:
+- Dean’s List: Spring 2023, Fall 2022, Spring 2022, Fall 2021, Spring 2021
+- T.W. Hatcher Mathematical Scholarship: 2022-2023
+
 
 ------
 
 # Skills
 
 - Data Science: SQL, PySpark, Hadoop, Machine Learning (logistic regression, XGBoost, random forest, KNN, CNN), Statistical Analytics (A/B testing, exploratory data analysis, time series, causal inference), ETL, Dashboard (Quarto/Power BI), NLP (NLTK), Excel
-- Programming Technologies: Python, JAVA, C, HTML
+- Programming Technologies: Python, JAVA, C, HTML/CSS
 - Statistical Tools: SAS (Certified Specialist), R
+- Language: English (fluent), Mandarin (native)
+- Interests: Baking, Making Coffee, Road trip, Movies, Explore something new.
+
+------
+
+# Certifications:
+- Base Programming Using SAS 9.4
+- Tableau A-Z: Hands-On Tableau Training for Data Science
+- Advanced SQL: MySQL for Ecommerce &Web Analytics
 

@@ -13,50 +13,10 @@ css: styles.css
 ------
 
 <a href="assets/HongxuanResume.pdf" class="btn btn-primary" download="HongxuanResume.pdf">Download Resume</a>
-
-# Experience
-
-### Data Science Intern | Penske Truck Leasing Co.
-
-**Reading, PA** | *May 2024 – July 2024*
-
-- Participated in designed and deploying the key components of customer analytics platform supported with big data (1MM+ transaction records) in SAS and Python by combing RFM analysis with K-mean clustering and ML-based churn prediction to fulfill business requirements of model centralization and improve accuracy of personalized marketing strategies (20% higher retention rate).
-- Validated platform enhancements and data ingestions weekly, collaborating with senior analysts to compile performance reports.
-- Teamed with senior scientists to automate a data monitoring process in Python for Penske data warehouse and develop a web-based visualization tool for business teams to identify and override/correct +15 types of data anomalies including inconsistent data types, outliers, improper data proxy usage, and feeding issues of upstream data sources.
-- Provided strategic deliveries and remediation plans for self-identified data issues or ad hoc business requirements.
-- Maintained the memory allocation for all Spark jobs and coordinated across end users for production releases; monitored the cluster/queue usage and run log of daily batches.
-
-### E-commerce Customer Segementation
--  Conducted data preprocessing and feature engineering on 400K+ e-commerce transactions data to analyze customer purchase behaviors.
--  Extracted product categories from text descriptions using Python NLTK and clustered products into 5 distinct groups, leveraging WordCloud visualization for category identification.
--  Led customer segmentation analysis using PCA and K-means clustering based on their product preference and purchasing power features, and labeled customers into 11 segments based on morphology plots.
--  Developed a multi-classification model using XGBoost that can predict customer segments from their current purchase behaviors, addressed class imbalance using SMOTE, achieving accuracy over 85%.
--  Enabled targeted marketing and personalized engagement strategies by identifying customer segments and predicting future purchase patterns, enhancing customer experience and increasing sales potential.
--  
-<!-- ### Customer Churn Classification
-- 1
-- 2
-- 3 -->
-
-### Research Assistant | Virginia Tech
-**Blacksburg, VA** | *June 2022 - May 2023*
-
-- Collaborated with an interdisciplinary research team from the Statistics Dept. and School of Plant and Environmental Sciences to develop AI-driven monitoring techniques for detecting subtle plant phenotype changes under stress conditions.
-- Implemented advanced data wrangling techniques in R (e.g., dplyr, ggplot2) to clean, process, and visualize plant health data across 100+ Excel datasets, ensuring accurate representation of monitoring proxies.
-- Developed and trained standalone ARIMA models for individual plants in treatment and control groups, applying F-tests on model parameters to identify statistically significant movement discrepancies. Results contributed to understanding plant stress responses.
-- Implemented and evaluated anomaly detection algorithms (moving average, Z-score, classification models) on multivariate time series data from six plant batches, improving detection of stimulus-driven movements and refining plant stress monitoring techniques.
-
-
-### Teaching Assistant | Virginia Tech
-**Blacksburg, VA** | *Jan 2023 - May 2023*
-
-- Led weekly discussion sessions and recitations, guiding students through ordinary differential equations, stochastic modeling, and numerical methods, while developing supplementary materials, including practice problems and coding exercises in Python, to reinforce key concepts.
-- Graded assignments and exams, providing detailed feedback to enhance students’ understanding of numerical linear algebra, eigenvalue problems, and parameter estimation, while holding regular office hours to offer one-on-one support.
   
-------
 
-# Education
 
+# 🎓Education
 
 
 ### University of Michigan - Ann Arbor | Ann Arbor, MI
@@ -71,13 +31,67 @@ Double Minor: BS Statistics / BE Computer Science 	*11/2021 - 05/2023*
 - T.W. Hatcher Mathematical Scholarship: 2022-2023
 
 
-------
+
+# Work Experience
+
+### Data Science Intern | Penske Logstics
+
+**Reading, PA** | *May 2024 – July 2024*
+
+- articipated in designed and deploying the key components of customer analytics platform supported with big data (1MM+ transaction records) in SAS and Python by combing RFM analysis with K-mean clustering and ML-based churn prediction to fulfill business requirements of model centralization and improve accuracy of personalized marketing strategies (20% higher retention rate).
+- Validated platform enhancements and data ingestions weekly, collaborating with senior analysts to compile performance reports.
+- Teamed with senior scientists to automate a data monitoring process in Python for Penske data warehouse and develop a web-based visualization tool for business teams to identify and override/correct +15 types of data anomalies including inconsistent data types, outliers, improper data proxy usage, and feeding issues of upstream data sources.
+- Provided strategic deliveries and remediation plans for self-identified data issues or ad hoc business requirements.
+- Maintained the memory allocation for all Spark jobs and coordinated across end users for production releases; monitored the cluster/queue usage and run log of daily batches.
+
+
+### Research Assistant | Virginia Tech 
+Does Plant Dance: AI-enabled Monitoring and Detection of Plant Dancing     
+Undergraduate Researcher to Dr. Bingyu Zhao & Dr. Xinwei Deng, Virginia Tech 
+**Blacksburg, VA** | *June 2022 - May 2023*
+
+- Collaborated with an interdisciplinary research team from the Statistics Dept. and School of Plant and Environmental Sciences to develop AI-driven monitoring techniques for detecting subtle plant phenotype changes under stress conditions.
+- Implemented advanced data wrangling techniques in R (e.g., dplyr, ggplot2) to clean, process, and visualize plant health data across 100+ Excel datasets, ensuring accurate representation of monitoring proxies.
+- Developed and trained standalone ARIMA models for individual plants in treatment and control groups, applying F-tests on model parameters to identify statistically significant movement discrepancies. Results contributed to understanding plant stress responses.
+- Implemented and evaluated anomaly detection algorithms (moving average, Z-score, classification models) on multivariate time series data from six plant batches, improving detection of stimulus-driven movements and refining plant stress monitoring techniques.
+
+
+### Teaching Assistant | Virginia Tech
+**Blacksburg, VA** | *Jan 2023 - May 2023*
+
+- Led weekly discussion sessions and recitations, guiding students through ordinary differential equations, stochastic modeling, and numerical methods, while developing supplementary materials, including practice problems and coding exercises in Python, to reinforce key concepts.
+- Graded assignments and exams, providing detailed feedback to enhance students’ understanding of numerical linear algebra, eigenvalue problems, and parameter estimation, while holding regular office hours to offer one-on-one support.
+
+
+# Projects
+
+### Petals to the Metal – Flower Classification | Kaggle Competition
+- Implemented a CNN-based flower classification system in Python using TensorFlow by building an efficient TFRecord data pipeline to handle a 5GB+ image dataset, achieving a 91% accuracy (top 10 on Leaderboard).
+- Leveraged pretrained CNNs (ResNet50, EfficientNetB0) and optimized model performance through data augmentation and a combination of GridSearch, Hyperband, and manual tuning, boosting F1-score by 10% and reducing GPU inference time by 25%.
+- Authored clear documentation and maintained robust version control using Git and GitHub, ensuring team collaboration and reproducibility across development and competition submissions.
+
+### Customer Segmentation Based on E-commerce Data | University of Michigan- Ann Arbor
+- Built a scalable ETL pipeline using Spark and Hadoop to ingest, process, and transform over 10M+ records from five data sources (transaction, payment, location, etc.) for 146k customers, reducing pipeline run time by 50% through optimized Python-based
+processing with enhanced tree-structured data outputs given business request.
+- Conducted customer segmentation using PCA for dimensionality reduction, followed by K-means and DBSCAN clustering; generated 9 behavioral profiles with clear consumption behavior patterns and identified high-value users (top 5% contributed 60% of GMV).
+- Delivered interactive BI dashboards in Tableau to support real-time updates of segmentation results and customer behavior tracking, enabling data-driven targeted marketing strategies.
+
+### Supervised Churn Prediction | Penske Logistics
+- Developed and deployed churn prediction model utilizing supervised learning algorithms (Logistic Regression, Random Forests, and XGBoost) with approved model performance of 0.92 AUC-ROC score and reducing false positives by 18.6%.
+- Reduced dimensionality from 155 candidate variables using a two-step approach: applied SAS VARCLUS to group in 10+ clusters resulting in 35 variables; further refined by logistic regression model to select the most predictive 8 variables for final model training.
+  
+### Intelligent Course Assignment System – Capstone Project Allocation Engine | Virginia Tech
+- Designed and implemented an intelligent allocation system based on simulated annealing in Python to dynamically match 200+ students with 30+ projects by analyzing interest survey data and quantifying project requirements.
+- Reverse-engineered faculty heuristics into 8 quantifiable constraints (e.g., interest alignment, skill complementarity, workload balance), enabling globally optimized assignment via temperature-controlled search (T_0 = 1000 → T_{min} = 1).
+- Authored a 12-page technical white paper and created an animated visualization to communicate algorithm principles to non-technical stakeholders; delivered 5 milestone presentations to faculty panels, contributing to the platform’s adoption as the department’s standard allocation tool, used by 600+ students over 3 consecutive semesters.
+
+
 
 # Skills
 
-- Data Science: SQL, PySpark, Hadoop, Machine Learning (logistic regression, XGBoost, random forest, KNN, CNN), Statistical Analytics (A/B testing, exploratory data analysis, time series, causal inference), ETL, Dashboard (Quarto/Power BI), NLP (NLTK), Excel
-- Programming Technologies: Python, JAVA, C, HTML/CSS
-- Statistical Tools: SAS (Certified Specialist), R
+- Data Science: SQL, PySpark, Hadoop, AWS, Machine Learning (Random Forest, CNNs, SVM, Logistic Regression, KNN), Statistical Analytics (A/B testing, exploratory data analysis, time series, causal inference), ETL, Dashboard (Quarto/Power BI), NLP (NLTK), Excel
+- Programming Technologies: Python (TensorFlow, Keras, Scikit-learn, Pytorch，Pandas, XGBoost, numpy, statsmodels, Matplotlib), JAVA, C++, R, Lunix, HTML/CSS
+- Statistical Tools: SAS (Certified Specialist), Rstudio
 - Language: English (fluent), Mandarin (native)
 - Interests: Baking, Making Coffee, Road trip, Movies, Explore something new.
 

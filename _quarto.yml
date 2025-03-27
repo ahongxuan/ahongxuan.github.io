@@ -11,8 +11,8 @@ website:
         text: Home
       - href: resume.qmd
         text: Resume
-      # - href: projects/index.qmd
-      #   text: Projects
+      - href: projects/index.qmd
+        text: Projects
     tools:
       - icon: github
       - herf: https://github.com/ahongxuan
